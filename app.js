@@ -10,6 +10,7 @@ console.log(stardustCrusaders);
 const logsOutThings = (array) => {
     console.log('Here are your ' + array.length + ' things!');
     for(let i = 0; i < array.length; i++){
+        console.log(array[i].standType);
         console.log(array[i]);
     }
 }
