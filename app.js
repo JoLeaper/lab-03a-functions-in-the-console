@@ -16,26 +16,26 @@ const logsOutThings = (array) => {
         switch(array[i].standRange) {
             case 'D':
             case 'E':
-            closeRange.push(array[i]);
-            break;
+                closeRange.push(array[i]);
+                break;
 
             case 'C':  
             case 'B':
-            midRange.push(array[i]);
-            break;
+                midRange.push(array[i]);
+                break;
 
             case 'A':
-            longRange.push(array[i]);
-            break;
+                longRange.push(array[i]);
+                break;
         }
 
     }        
-        console.log('Close-Range:');
-        console.log(closeRange);
-        console.log('Mid-Range:');
-        console.log(midRange);
-        console.log('Long-Rage');
-        console.log(longRange);
+    console.log('Close-Range:');
+    console.log(closeRange);
+    console.log('Mid-Range:');
+    console.log(midRange);
+    console.log('Long-Rage');
+    console.log(longRange);
 };
 
 logsOutThings(stardustCrusaders);
